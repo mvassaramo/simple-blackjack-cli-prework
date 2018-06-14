@@ -40,14 +40,7 @@ get_user_input == "h" ? deal_card + card_total: card_total
 end
 
 def invalid_command
- welcome
- initial_round
- card_total
-  until card_total > 21
-   hit?
-   display_card_total
- end
- end_game(card_total)
+
  end
  
 
